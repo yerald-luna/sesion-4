@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<audio controls id="audioTest" src="http://byte-cdn.com/podcasts/BytePodcast588.mp3">Su navegador no soporta audio</audio>
+	<div>
+		<button onclick="document.getElementById('audioTest').play();">Ejecutar</button>
+		<button onclick="document.getElementById('audioTest').pause();">Pausar</button>
+		<button onclick="document.getElementById('audioTest').volume+=0.1;">Subir Volumen</button>
+		<button onclick="document.getElementById('audioTest').volume-=0.1;">Bajar Volumen</button>
+		<button onclick="document.getElementById('audioTest').volume=0;">Silenciar</button>
+	</div>
+	<video controls id="videoTest" src="https://www.w3schools.com/html/mov_bbb.ogg"></video>
+	    <div>
+		<button onclick="document.getElementById('videoTest').play();">Ejecutar</button>
+		<button onclick="document.getElementById('videoTest').pause();">Pausar</button>
+		<button onclick="document.getElementById('videoTest').volume+=0.1;">Subir Volumen</button>
+		<button onclick="document.getElementById('videoTest').volume-=0.1;">Bajar Volumen</button>
+		<button onclick="document.getElementById('videoTest').volume=0;">Silenciar</button>
+	</div>
+</body>
+</html>
